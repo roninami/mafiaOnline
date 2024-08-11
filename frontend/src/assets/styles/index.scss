@@ -1,0 +1,12 @@
+/* Сюда:
+Импортировать другие .scss файлы
+Писать глобальные стили
+*/
+@use './variables.scss' as variable;
+@import url('./reset.scss');
+@import url('./fonts.scss');
+
+html {
+    font-family: variable.$font-primary;
+  }
+  
