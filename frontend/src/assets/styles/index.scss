@@ -3,10 +3,12 @@
 Писать глобальные стили
 */
 @use './variables.scss' as variable;
-@import url('./reset.scss');
 @import url('./fonts.scss');
+@import url('./reset.scss');
+@import url('./normalize.css');
+@import url('./global.scss');
+@import url('../../routes/AuthPage/AuthPage.scss');
+@import url('../../pages/LandingPage/LandingPage.scss');
 
-html {
-    font-family: variable.$font-primary;
-  }
+
   

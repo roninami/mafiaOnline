@@ -1,0 +1,9 @@
+@use './variables.scss' as variable;
+
+:root {
+    //... общие стили, но не переменные
+}
+
+html {
+    font-family: variable.$font-primary;
+  }
